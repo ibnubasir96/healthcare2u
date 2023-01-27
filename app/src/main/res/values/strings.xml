@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Myproject</string>
+    <string name="title_activity_map_marker">mapMarker</string>
+
+    <string name="hyperlink">Please Visit Us On  <a href="https://github.com/">GitHub</a></string>
+
+</resources>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".SecondActivity"
+    android:background="@drawable/background2">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/aboutus"
+            android:layout_width="wrap_content"
+            android:layout_height="68dp"
+
+            android:layout_alignParentTop="true"
+
+            android:layout_alignParentEnd="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="59dp"
+            android:layout_marginEnd="271dp"
+            android:text="ABOUT US"
+            android:textAlignment="center"
+            android:textSize="50dp"
+            android:textStyle="bold" />
+
+        <TextView
+        android:id="@+id/textView"
+
+        android:layout_width="398dp"
+        android:layout_height="135dp"
+        android:layout_below="@+id/aboutus"
+        android:layout_alignParentStart="true"
+
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="4dp"
+        android:text="Our company is dedicated to improving the healthcare experience for patients through the use of innovative technology. We are committed to providing our patients with the tools and resources they need to take control of their health and feel empowered in their healthcare journey. Thank you for choosing our mobile healthcare app"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/developer"
+            android:layout_width="329dp"
+            android:layout_height="52dp"
+            android:layout_below="@+id/textView"
+
+
+            android:layout_centerHorizontal="true"
+
+            android:layout_marginStart="128dp"
+            android:layout_marginTop="-62dp"
+            android:text="DEVELOPERS"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="416dp"
+            android:layout_height="333dp"
+            android:layout_below="@+id/developer"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="-22dp"
+            android:layout_marginTop="-26dp"
+            android:layout_marginEnd="17dp"
+            android:src="@drawable/img_dev"
+            tools:layout_editor_absoluteX="39dp"
+            tools:layout_editor_absoluteY="-39dp" />
+
+        <ImageView
+            android:id="@+id/logo2"
+            android:layout_width="298dp"
+            android:layout_height="292dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="214dp"
+            android:layout_marginTop="456dp"
+            android:layout_marginEnd="-101dp"
+            android:src="@drawable/logo"
+
+            tools:layout_editor_absoluteX="39dp"
+            tools:layout_editor_absoluteY="-39dp" />
+
+        <TextView
+            android:id="@+id/link"
+            android:layout_width="357dp"
+            android:layout_height="wrap_content"
+
+
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="659dp"
+            android:layout_marginEnd="29dp"
+            android:text="@string/hyperlink"
+            android:textAlignment="center"
+            android:textColor="@color/common_google_signin_btn_text_light_pressed"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+    </ScrollView>
+
+
+
+
+
+
+   
+
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/bottomAppBar"
+        style="@style/Widget.MaterialComponents.BottomAppBar.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        app:backgroundTint="#5C5CFF"
+        app:titleTextColor="#FBD3D3"
+        tools:ignore="BottomAppBar" />
+
+    <Button
+
+        android:id="@+id/map_button"
+
+        android:layout_width="179dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="494dp"
+        android:layout_marginBottom="5dp"
+        android:backgroundTint="#00BCD4"
+
+        android:text="map"
+        android:textColor="#0C0C0C" />
+
+    <Button
+        android:id="@+id/location_button"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="508dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="5dp"
+        android:backgroundTint="#00BCD4"
+        android:text="My Location"
+        android:textColor="#0C0C0C"
+        android:textSize="10dp" />
+
+
+
+
+
+
+</RelativeLayout>

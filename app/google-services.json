@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "865756540579",
+    "firebase_url": "https://lab4-luqman-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "lab4-luqman",
+    "storage_bucket": "lab4-luqman.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:865756540579:android:d0d574ea248297ca635916",
+        "android_client_info": {
+          "package_name": "com.example.lab4_luqman"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "865756540579-2p1u6g8h0kbc4bh484dde8tq2h3ri8qp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAKmWpDV1nKokBHN1mE2_cCIJ_fYlDtxA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "865756540579-2p1u6g8h0kbc4bh484dde8tq2h3ri8qp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
